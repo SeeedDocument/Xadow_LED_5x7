@@ -1,0 +1,76 @@
+# Xadow - LED 5x7
+## Introduction
+---
+The Xadow LED 5x7 consists of a 5x7 monochrome LED matrix and a LED controller. You can sending command to the LED controller through I2C interface (address 0x21) to display numbers, letters or even pixel images. This could come handy sometime in your project.
+
+## Features
+---
+- LED Matrix
+- Plug-and-play if connected with RePhone Kit Create
+- Open source and modular design
+- Slim and small
+- Built-in 11 PIN Xadow Connectors for full flexible connection with other Xadow Modules
+- Stackable, chain-able and sew-able with other Xadow Modules
+
+## Specification
+---
+|Item|Value|
+|---|---|
+|Microcontroller|	STM32F030F4
+|Core|	ARM® 32-bit Cortex® -M0 CPU
+|Power Supply|	3.3 ~ 6 V (via breakout pins)
+|Flash|	16 KB
+|SRAM	|4 KB
+|Clock Speed|	48 MHz
+|Interfaces|	Interface with Xadow GSM+BLE through I2C (7-bit address 0x21)
+|Dimension|	25.37mm × 20.30mm / 1” × 0.8”
+
+
+## Hardware Overview
+---
+
+## Use it with RePhone Kit Create
+---
+**Display characters:**
+
+ Without any programming, you can connect it to the Core Module (Xadow GSM+BLE) of your 'RePhone Kit Create' to display numbers and letters using the 'Actuator Control'.
+
+**Set 'If This Then That' :**
+
+ You can also set conditions in the 'If This Then That' to trigger the Xadow LED 5x7 to display specific characters or pixel images.
+
+
+## Rephone Community
+---
+
+ We’ve been looking for a better place where our backers (RePhone Users) can sit together, warmly and comfortably, have conversations about RePhone, discuss technical problems, share ideas/projects, and give feedback on the modules’ development in the future. And then here we go, the [RePhone Community](http://www.seeed.cc/discover.html?t=RePhone).
+
+ Now join us in the [RePhone Community](http://www.seeed.cc/discover.html?t=RePhone)! Together we seek answers, make interesting stuff, care about each other, and share our experiences.
+
+ **Frequently Asked Questions**
+
+ Some frequently asked questions in [RePhone Community](http://www.seeed.cc/discover.html?t=RePhone) are collected and answered to the topic "Frequently Asked Questions of RePhone (FAQ)" , the topic will be kept updating whenever a new FAQ comes out.
+
+## Resources
+---
+We will be keep updating the source code on our github page:
+- [Source Code for Xadow LED 5x7]
+
+The schematic diagram of Xadow LED 5x7 is provided in the following link:
+- [Xadow Duino Schematic Files]
+
+## Help us to make it better
+---
+Thank you for choosing Seeed. As one of the world-leading open-hardware suppliers, Seeedstudio has been continuously creating well-quality and diversified modules for our customers, makers and developers. As a young company, it is inevitable that there are things we neglected the importance, for example, our document system. It is a little shame however true that we have been continuously receiving complaint about how hard it is to use our document system——ugly interface, confusing content, and the URL that can never be opened etc. Here we sincerely apologize for all the inconvenient you’ve experienced during using the old system.
+
+It is time to say good bye to the user-unfriendly old document system now, in order to bring better experience to our users, we have launched a project to optimize the document system from the middle of 2016. The work includes:
+
+* Replace the old WiKi system with a new one that developed from Mkdocs, a more widely used and cooler project documentation tool.
+* Review and rewrite documents for hundreds of products to make them more understandable.
+* Inspected repair all the URL to make sure it can be linked to the right page.
+
+Although we have tried our best to optimize, it is still possible that we make some mistakes, so if you find anything that needs to be updated, it is very welcome to submit the amended version as our contributor or give us suggestions in the survey below. Please don’t forget to leave your email address if you need our reply, we will reply to you as soon as we can.
+
+By the way, we will feel very happy and encouraged if we receive 5 stars from you. With the help and encouragement from you, we believe that we can make this document better and better!
+
+<iframe style="height: 600px; width: 700px; margin: 10px 0 10px;" allowTransparency="true" src="https://www.research.net/r/xadow-led-5x7" frameborder="0"></iframe>
